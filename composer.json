@@ -1,6 +1,7 @@
 {
     "name": "str5/test",
     "description": "Test package",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "Str5\\Test\\": "src/"
