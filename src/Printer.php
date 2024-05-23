@@ -9,6 +9,11 @@ class Printer implements PrinterInterface
      */
     public function print(string $text, int $count): string
     {
+        return $this->makePrintText($text, $count);
+    }
+
+    private function makePrintText(string $text, int $count): string 
+    {
         return str_repeat($text, $count);
     }
 }
